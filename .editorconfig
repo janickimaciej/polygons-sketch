@@ -1,0 +1,7 @@
+﻿[*.{cs,vb}]
+
+# IDE0048: Add parentheses for clarity
+dotnet_style_parentheses_in_arithmetic_binary_operators = never_if_unnecessary
+
+# IDE0025: Use expression body for properties
+csharp_style_expression_bodied_properties = false
